@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind typography;
+
+body > div > div{
+  min-height: 100vh;
+}
+
+/* .xwing-miniatures-font::before {
+  display: inline-block;
+  line-height: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.linked .xwing-miniatures-font::before {
+  display: inline-block;
+  line-height: 1.65;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+} */
+
+
+/* .linked > *:first-child::after{
+  content: "\25B6";
+  color: white;
+  background-color: transparent;
+} */
+
+
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+} */

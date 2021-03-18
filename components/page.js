@@ -3,6 +3,7 @@ import useInterval from '../lib/useInterval'
 import Clock from './clock'
 import Counter from './counter'
 import Nav from './nav'
+import Squad from './Squad'
 
 export default function Page() {
   const dispatch = useDispatch()
@@ -18,9 +19,10 @@ export default function Page() {
 
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <Clock />
-      <Counter />
+      <Counter /> */}
+      <Squad />
     </>
   )
 }
