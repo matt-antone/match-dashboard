@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Shield from './Shield'
-
+import Token from './Token'
 export default class Shields extends Component {
 
   showShipShields = (pilot) => {
@@ -11,7 +11,7 @@ export default class Shields extends Component {
       if(typeof(stat) !==  'undefined'){
         for(let x=1; x<= stat.value; x++) {
           shields.push(
-            <Shield/>
+            <Token name={"shield"} />
           )
         }
       }
